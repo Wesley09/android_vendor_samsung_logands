@@ -58,9 +58,9 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/logands/proprietary/lib/libwvm.so:system/lib/libwvm.so \
 	vendor/samsung/logands/proprietary/etc/gps/glconfig.xml:system/etc/gps/glconfig.xml \
 	vendor/samsung/logands/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
-	vendor/samsung/logands/proprietary/etc/wifi/bcmdhd_apsta.bin:system/wifi/bcmdhd_apsta.bin
-	vendor/samsung/logands/proprietary/etc/wifi/bcmdhd_sta.bin:system/etc/wifi/bcmdhd_sta.bin
-	vendor/samsung/logands/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt
+	vendor/samsung/logands/proprietary/etc/wifi/bcmdhd_apsta.bin:system/wifi/bcmdhd_apsta.bin \
+	vendor/samsung/logands/proprietary/etc/wifi/bcmdhd_sta.bin:system/etc/wifi/bcmdhd_sta.bin \
+	vendor/samsung/logands/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
 	vendor/samsung/logands/proprietary/etc/asound.conf:system/etc/asound.conf \
 	vendor/samsung/logands/proprietary/etc/audio_policy.conf:system/etc/audio_policy.conf \
 	vendor/samsung/logands/proprietary/etc/DiamondVoice_Filter_NB.txt:system/etc/DiamondVoice_Filter_NB.txt \
