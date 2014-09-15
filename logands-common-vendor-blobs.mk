@@ -53,7 +53,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/logands/proprietary/lib/libsthmb.so:system/lib/libsthmb.so \
 	vendor/samsung/logands/proprietary/lib/libuecodec.so:system/lib/libuecodec.so \
 	vendor/samsung/logands/proprietary/lib/libusb_config.so:system/lib/libusb_config.so \
-	vendor/samsung/logands/proprietary/lib/libVCOS.so:system/lib/libVCOS.so \
+	vendor/samsung/logands/proprietary/lib/libvcos.so:system/lib/libvcos.so \
 	vendor/samsung/logands/proprietary/lib/libwvdrm_L3.so:system/lib/libwvdrm_L3.so \
 	vendor/samsung/logands/proprietary/lib/libwvm.so:system/lib/libwvm.so \
 	vendor/samsung/logands/proprietary/etc/gps/glconfig.xml:system/etc/gps/glconfig.xml \
