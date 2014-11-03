@@ -1,18 +1,26 @@
 # Not copy this files
 #	vendor/samsung/logands/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
 #   vendor/samsung/logands/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
-# 	vendor/samsung/logands/proprietary/etc/media_profiles.xml:system/etc/media_profiles.xml \
 #	vendor/samsung/logands/proprietary/lib/hw/sensors.goldfish.so:system/lib/hw/sensors.goldfish.so \
 #	vendor/samsung/logands/proprietary/lib/hw/camera.goldfish.so:system/lib/hw/camera.goldfish.so \
 #   vendor/samsung/logands/proprietary/lib/hw/gps.goldfish.so:system/lib/hw/gps.goldfish.so \
 #   vendor/samsung/logands/proprietary/lib/hw/lights.goldfish.so:system/lib/hw/lights.goldfish.so \
 #   vendor/samsung/logands/proprietary/lib/hw/power.goldfish.so:system/lib/hw/power.goldfish.so \
+#   vendor/samsung/logands/proprietary/lib/modules/VoiceSolution.ko:system/lib/modules/VoiceSolution.ko \
+# 	vendor/samsung/logands/proprietary/etc/DiamondVoice_Filter_NB.txt:system/etc/DiamondVoice_Filter_NB.txt \
+#   vendor/samsung/logands/proprietary/etc/DiamondVoice_Filter_WB.txt:system/etc/DiamondVoice_Filter_WB.txt \
+#   vendor/samsung/logands/proprietary/etc/DiamondVoice_NB.txt:system/etc/DiamondVoice_NB.txt \
+#   vendor/samsung/logands/proprietary/etc/DiamondVoice_SF_Filter_NB.txt:system/etc/DiamondVoice_SF_Filter_NB.txt \
+#   vendor/samsung/logands/proprietary/etc/DiamondVoice_SF_Filter_WB.txt:system/etc/DiamondVoice_SF_Filter_WB.txt \
+#   vendor/samsung/logands/proprietary/etc/DiamondVoice_WB.txt:system/etc/DiamondVoice_WB.txt \
+#   vendor/samsung/logands/proprietary/etc/audio_policy.conf:system/etc/audio_policy.conf \
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/logands/proprietary/bin/at_distributor:system/bin/at_distributor \
     vendor/samsung/logands/proprietary/bin/atrace:system/bin/atrace \
     vendor/samsung/logands/proprietary/bin/atx:system/bin/atx \
     vendor/samsung/logands/proprietary/bin/atxd:system/bin/atxd \
+	vendor/samsung/logands/proprietary/bin/cate_rpc_util:system/bin/cate_rpc_util \
     vendor/samsung/logands/proprietary/bin/BCM4330B1_002.001.003.0967.1173.hcd:system/bin/BCM4330B1_002.001.003.0967.1173.hcd \
     vendor/samsung/logands/proprietary/bin/bkmgrd:system/bin/bkmgrd \
     vendor/samsung/logands/proprietary/bin/glgps:system/bin/glgps \
@@ -28,14 +36,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/logands/proprietary/bin/wlandutservice:system/bin/wlandutservice \
 	vendor/samsung/logands/proprietary/bin/sensord:system/bin/sensord \
     vendor/samsung/logands/proprietary/etc/asound.conf:system/etc/asound.conf \
-    vendor/samsung/logands/proprietary/etc/audio_policy.conf:system/etc/audio_policy.conf \
     vendor/samsung/logands/proprietary/etc/usb_portd.conf:system/etc/usb_portd.conf \
-    vendor/samsung/logands/proprietary/etc/DiamondVoice_Filter_NB.txt:system/etc/DiamondVoice_Filter_NB.txt \
-    vendor/samsung/logands/proprietary/etc/DiamondVoice_Filter_WB.txt:system/etc/DiamondVoice_Filter_WB.txt \
-    vendor/samsung/logands/proprietary/etc/DiamondVoice_NB.txt:system/etc/DiamondVoice_NB.txt \
-    vendor/samsung/logands/proprietary/etc/DiamondVoice_SF_Filter_NB.txt:system/etc/DiamondVoice_SF_Filter_NB.txt \
-    vendor/samsung/logands/proprietary/etc/DiamondVoice_SF_Filter_WB.txt:system/etc/DiamondVoice_SF_Filter_WB.txt \
-    vendor/samsung/logands/proprietary/etc/DiamondVoice_WB.txt:system/etc/DiamondVoice_WB.txt \
     vendor/samsung/logands/proprietary/etc/gps/glconfig.xml:system/etc/gps/glconfig.xml \
     vendor/samsung/logands/proprietary/etc/gps.conf:system/etc/gps.conf \
     vendor/samsung/logands/proprietary/etc/Volume.db:system/etc/Volume.db \
@@ -57,10 +58,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/logands/proprietary/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
     vendor/samsung/logands/proprietary/lib/drm/libomaplugin.so:system/lib/drm/libomaplugin.so \
     vendor/samsung/logands/proprietary/lib/drm/libplayreadyplugin.so:system/lib/drm/libplayreadyplugin.so \
-	vendor/samsung/logands/proprietary/lib/modules/VoiceSolution.ko:system/lib/modules/VoiceSolution.ko \
     vendor/samsung/logands/proprietary/lib/libstagefright_avc_common.so:system/lib/libstagefright_avc_common.so \
     vendor/samsung/logands/proprietary/lib/libasound.so:system/lib/libasound.so \
     vendor/samsung/logands/proprietary/lib/libsavscmn.so:system/lib/libsavscmn.so \
+	vendor/samsung/logands/proprietary/lib/libcate_rpc.so:system/lib/libcate_rpc.so \
     vendor/samsung/logands/proprietary/lib/lib_Samsung_Resampler.so:system/lib/lib_Samsung_Resampler.so \
     vendor/samsung/logands/proprietary/lib/lib_Samsung_SB_AM_for_ICS_v04004.so:system/lib/lib_Samsung_SB_AM_for_ICS_v04004.so \
     vendor/samsung/logands/proprietary/lib/lib_SamsungRec_V01006.so:system/lib/lib_SamsungRec_V01006.so \
@@ -82,7 +83,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/logands/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/logands/proprietary/lib/librpc.so:system/lib/librpc.so \
     vendor/samsung/logands/proprietary/lib/libsamsungRecord.so:system/lib/libsamsungRecord.so \
-	vendor/samsung/logands/proprietary/lib/libsamsungRecord_ns.so:system/lib/libsamsungRecord_ns.so \
     vendor/samsung/logands/proprietary/lib/libsamsungSoundbooster.so:system/lib/libsamsungSoundbooster.so \
     vendor/samsung/logands/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/logands/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
@@ -107,7 +107,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/logands/proprietary/lib/libWVStreamControlAPI_L3.so:system/lib/libWVStreamControlAPI_L3.so \
     vendor/samsung/logands/proprietary/lib/libBrcmOMX_Core.so:system/lib/libBrcmOMX_Core.so \
     vendor/samsung/logands/proprietary/lib/libBrcmOMX_Component.so:system/lib/libBrcmOMX_Component.so \
-    vendor/samsung/logands/proprietary/lib/libOMX.brcm.video.vc1.hw.decoder.so:system/lib/libOMX.brcm.video.vc1.hw.decoder.so \
     vendor/samsung/logands/proprietary/lib/libsavsvc.so:system/lib/libsavsvc.so \
     vendor/samsung/logands/proprietary/lib/libkeystore_client.so:system/lib/libkeystore_client.so \
     vendor/samsung/logands/proprietary/lib/libcontrolcsc.so:system/lib/libcontrolcsc.so \
@@ -116,6 +115,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/logands/proprietary/lib/libisp3.so:system/lib/libisp3.so \
 	vendor/samsung/logands/proprietary/lib/libV3D_csc.so:system/lib/libV3D_csc.so \
     vendor/samsung/logands/proprietary/lib/libV3D_driver.so:system/lib/libV3D_driver.so \
+	vendor/samsung/logands/proprietary/lib/libOMX.brcm.video.vc1.hw.decoder.so:system/lib/libOMX.brcm.video.vc1.hw.decoder.so \
     vendor/samsung/logands/proprietary/lib/libOMX.brcm.audio.aac.decoder.so:system/lib/libOMX.brcm.audio.aac.decoder.so \
     vendor/samsung/logands/proprietary/lib/libOMX.brcm.audio.aac.encoder.so:system/lib/libOMX.brcm.audio.aac.encoder.so \
     vendor/samsung/logands/proprietary/lib/libOMX.brcm.audio.amrnb.decoder.so:system/lib/libOMX.brcm.audio.amrnb.decoder.so \
