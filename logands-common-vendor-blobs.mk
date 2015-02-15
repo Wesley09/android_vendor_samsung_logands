@@ -283,9 +283,9 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/lib/libjpeg_turbo.so:system/lib/libjpeg_turbo.so \
 	$(LOCAL_PATH)/proprietary/lib/librpc.so:system/lib/librpc.so \
 	$(LOCAL_PATH)/proprietary/lib/libsthmb.so:system/lib/libsthmb.so \
-	$(LOCAL_PATH)/proprietary/lib/libvcos.so:system/lib/libvcos.so \
 	$(LOCAL_PATH)/proprietary/lib/libwvdrm_L3.so:system/lib/libwvdrm_L3.so \
 	$(LOCAL_PATH)/proprietary/lib/libwvm.so:system/lib/libwvm.so \
+	$(LOCAL_PATH)/proprietary/lib/libVCOS.so:system/lib/libVCOS.so \
 	$(LOCAL_PATH)/proprietary/lib/libVCE_csl.so:system/lib/libVCE_csl.so \
 	$(LOCAL_PATH)/proprietary/lib/libVCE_driver.so:system/lib/libVCE_driver.so \
     $(LOCAL_PATH)/proprietary/lib/libVCE_imageconv.so:system/lib/libVCE_imageconv.so \
