@@ -91,10 +91,10 @@ LOCAL_PATH := vendor/samsung/logands
 #$(LOCAL_PATH)/proprietary/etc/srm.bin:system/etc/srm.bin \
 #$(LOCAL_PATH)/proprietary/lib/hw/audio_policy.hawaii.so:system/lib/hw/audio_policy.hawaii.so \
 #$(LOCAL_PATH)/proprietary/lib/libaudiopolicy_sec.so:system/lib/libaudiopolicy_sec.so \
+#$(LOCAL_PATH)/proprietary/bin/atrace:system/bin/atrace \
 
 
 PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/proprietary/bin/atrace:system/bin/atrace \
 	$(LOCAL_PATH)/proprietary/bin/BCM4330B1_002.001.003.0967.1173.hcd:system/bin/BCM4330B1_002.001.003.0967.1173.hcd \
 	$(LOCAL_PATH)/proprietary/bin/bkmgrd:system/bin/bkmgrd \
 	$(LOCAL_PATH)/proprietary/bin/glgps:system/bin/glgps \
