@@ -92,6 +92,20 @@ LOCAL_PATH := vendor/samsung/logands
 #$(LOCAL_PATH)/proprietary/lib/hw/audio_policy.hawaii.so:system/lib/hw/audio_policy.hawaii.so \
 #$(LOCAL_PATH)/proprietary/lib/libaudiopolicy_sec.so:system/lib/libaudiopolicy_sec.so \
 #$(LOCAL_PATH)/proprietary/bin/atrace:system/bin/atrace \
+#$(LOCAL_PATH)/proprietary/bin/cate_rpc_util:system/bin/cate_rpc_util \
+#$(LOCAL_PATH)/proprietary/lib/libcate_rpc.so:system/lib/libcate_rpc.so
+#$(LOCAL_PATH)/proprietary/bin/usb_portd:system/bin/usb_portd \
+#$(LOCAL_PATH)/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
+#$(LOCAL_PATH)/proprietary/lib/libusb_config.so:system/lib/libusb_config.so \
+#$(LOCAL_PATH)/proprietary/etc/usb_portd.conf:system/etc/usb_portd.conf \
+#$(LOCAL_PATH)/proprietary/lib/libseccameracore.so:system/lib/libseccameracore.so \
+#$(LOCAL_PATH)/proprietary/lib/libseccamera_jni.so:system/lib/libseccamera_jni.so \
+#$(LOCAL_PATH)/proprietary/lib/libarccamera.so:system/lib/libarccamera.so \
+#$(LOCAL_PATH)/proprietary/lib/libseccameraeffect.so:system/lib/libseccameraeffect.so \
+#$(LOCAL_PATH)/proprietary/lib/libsecimaging.so:system/lib/libsecimaging.so \
+#$(LOCAL_PATH)/proprietary/lib/libsecjpeginterface.so:system/lib/libsecjpeginterface.so \
+#$(LOCAL_PATH)/proprietary/lib/libexif_jni.so:system/lib/libexif_jni.so \
+#$(LOCAL_PATH)/proprietary/lib/libsecmediarecorder_jni.so:system/lib/libsecmediarecorder_jni.so 
 
 
 PRODUCT_COPY_FILES += \
@@ -105,8 +119,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/bin/rild:system/bin/rild \
 	$(LOCAL_PATH)/proprietary/bin/mfgloader:system/bin/mfgloader \
 	$(LOCAL_PATH)/proprietary/bin/wlandutservice:system/bin/wlandutservice \
-	$(LOCAL_PATH)/proprietary/bin/cate_rpc_util:system/bin/cate_rpc_util \
-	$(LOCAL_PATH)/proprietary/bin/usb_portd:system/bin/usb_portd \
 	$(LOCAL_PATH)/proprietary/bin/sensord:system/bin/sensord
 	
 # mp3 
@@ -226,7 +238,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/usr/lib/alsa-lib/libasound_module_pcm_bcmfilter.so:system/usr/lib/alsa-lib/libasound_module_pcm_bcmfilter.so \
     $(LOCAL_PATH)/proprietary/usr/lib/alsa-lib/libbcm_hp_filter.so:system/usr/lib/alsa-lib/libbcm_hp_filter.so \
     $(LOCAL_PATH)/proprietary/usr/lib/alsa-lib/libbcm_test_filter.so:system/usr/lib/alsa-lib/libbcm_test_filter.so \
-    $(LOCAL_PATH)/proprietary/usr/share/alsa/alsa.conf:system/usr/share/alsa/alsa.conf 
+    $(LOCAL_PATH)/proprietary/usr/share/alsa/alsa.conf:system/usr/share/alsa/alsa.conf
 
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
@@ -239,14 +251,11 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/etc/gps/glconfig.xml:system/etc/gps/glconfig.xml \
 	$(LOCAL_PATH)/proprietary/etc/asound.conf:system/etc/asound.conf \
     $(LOCAL_PATH)/proprietary/etc/gps.conf:system/etc/gps.conf \
-	$(LOCAL_PATH)/proprietary/etc/usb_portd.conf:system/etc/usb_portd.conf \
     $(LOCAL_PATH)/proprietary/etc/Volume.db:system/etc/Volume.db
 
 PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
 	$(LOCAL_PATH)/proprietary/lib/lib_DNSe_NRSS_ver224c.so:system/lib/lib_DNSe_NRSS_ver224c.so \
 	$(LOCAL_PATH)/proprietary/lib/libsavsvc.so:system/lib/libsavsvc.so \
-	$(LOCAL_PATH)/proprietary/lib/libusb_config.so:system/lib/libusb_config.so \
 	$(LOCAL_PATH)/proprietary/lib/libv3d.so:system/lib/libv3d.so \
 	$(LOCAL_PATH)/proprietary/lib/libvcdecoder_jni.so:system/lib/libvcdecoder_jni.so \
     $(LOCAL_PATH)/proprietary/lib/libV3D_csc.so:system/lib/libV3D_csc.so \
@@ -298,15 +307,4 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libisp2.so:system/lib/libisp2.so \
 	$(LOCAL_PATH)/proprietary/lib/libisp3.so:system/lib/libisp3.so \
 	$(LOCAL_PATH)/proprietary/lib/libexifa.so:system/lib/libexifa.so \
-	$(LOCAL_PATH)/proprietary/lib/libjpega.so:system/lib/libjpega.so \
-	$(LOCAL_PATH)/proprietary/lib/libcate_rpc.so:system/lib/libcate_rpc.so
-	
-PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/proprietary/lib/libseccameracore.so:system/lib/libseccameracore.so \
-	$(LOCAL_PATH)/proprietary/lib/libseccamera_jni.so:system/lib/libseccamera_jni.so \
-	$(LOCAL_PATH)/proprietary/lib/libarccamera.so:system/lib/libarccamera.so \
-	$(LOCAL_PATH)/proprietary/lib/libseccameraeffect.so:system/lib/libseccameraeffect.so \
-	$(LOCAL_PATH)/proprietary/lib/libsecimaging.so:system/lib/libsecimaging.so \
-	$(LOCAL_PATH)/proprietary/lib/libsecjpeginterface.so:system/lib/libsecjpeginterface.so \
-	$(LOCAL_PATH)/proprietary/lib/libexif_jni.so:system/lib/libexif_jni.so \
-	$(LOCAL_PATH)/proprietary/lib/libsecmediarecorder_jni.so:system/lib/libsecmediarecorder_jni.so 
+	$(LOCAL_PATH)/proprietary/lib/libjpega.so:system/lib/libjpega.so
