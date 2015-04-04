@@ -106,6 +106,7 @@ LOCAL_PATH := vendor/samsung/logands
 #$(LOCAL_PATH)/proprietary/lib/libsecjpeginterface.so:system/lib/libsecjpeginterface.so \
 #$(LOCAL_PATH)/proprietary/lib/libexif_jni.so:system/lib/libexif_jni.so \
 #$(LOCAL_PATH)/proprietary/lib/libsecmediarecorder_jni.so:system/lib/libsecmediarecorder_jni.so 
+#$(LOCAL_PATH)/proprietary/bin/sensord:system/bin/sensord
 
 
 PRODUCT_COPY_FILES += \
@@ -118,8 +119,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/bin/mttlogger:system/bin/mttlogger \
     $(LOCAL_PATH)/proprietary/bin/rild:system/bin/rild \
 	$(LOCAL_PATH)/proprietary/bin/mfgloader:system/bin/mfgloader \
-	$(LOCAL_PATH)/proprietary/bin/wlandutservice:system/bin/wlandutservice \
-	$(LOCAL_PATH)/proprietary/bin/sensord:system/bin/sensord
+	$(LOCAL_PATH)/proprietary/bin/wlandutservice:system/bin/wlandutservice
 	
 # mp3 
 PRODUCT_COPY_FILES += \
