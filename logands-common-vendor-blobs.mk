@@ -92,12 +92,6 @@ LOCAL_PATH := vendor/samsung/logands
 #$(LOCAL_PATH)/proprietary/lib/hw/audio_policy.hawaii.so:system/lib/hw/audio_policy.hawaii.so \
 #$(LOCAL_PATH)/proprietary/lib/libaudiopolicy_sec.so:system/lib/libaudiopolicy_sec.so \
 #$(LOCAL_PATH)/proprietary/bin/atrace:system/bin/atrace \
-#$(LOCAL_PATH)/proprietary/bin/cate_rpc_util:system/bin/cate_rpc_util \
-#$(LOCAL_PATH)/proprietary/lib/libcate_rpc.so:system/lib/libcate_rpc.so
-#$(LOCAL_PATH)/proprietary/bin/usb_portd:system/bin/usb_portd \
-#$(LOCAL_PATH)/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
-#$(LOCAL_PATH)/proprietary/lib/libusb_config.so:system/lib/libusb_config.so \
-#$(LOCAL_PATH)/proprietary/etc/usb_portd.conf:system/etc/usb_portd.conf \
 #$(LOCAL_PATH)/proprietary/lib/libseccameracore.so:system/lib/libseccameracore.so \
 #$(LOCAL_PATH)/proprietary/lib/libseccamera_jni.so:system/lib/libseccamera_jni.so \
 #$(LOCAL_PATH)/proprietary/lib/libarccamera.so:system/lib/libarccamera.so \
@@ -309,3 +303,11 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/lib/libisp3.so:system/lib/libisp3.so \
 	$(LOCAL_PATH)/proprietary/lib/libexifa.so:system/lib/libexifa.so \
 	$(LOCAL_PATH)/proprietary/lib/libjpega.so:system/lib/libjpega.so
+
+PRODUCT_COPY_FILES += \	
+	$(LOCAL_PATH)/proprietary/bin/cate_rpc_util:system/bin/cate_rpc_util \
+	$(LOCAL_PATH)/proprietary/lib/libcate_rpc.so:system/lib/libcate_rpc.so \
+	$(LOCAL_PATH)/proprietary/bin/usb_portd:system/bin/usb_portd \
+	$(LOCAL_PATH)/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
+	$(LOCAL_PATH)/proprietary/lib/libusb_config.so:system/lib/libusb_config.so \
+	$(LOCAL_PATH)/proprietary/etc/usb_portd.conf:system/etc/usb_portd.conf	
