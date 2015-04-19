@@ -43,31 +43,6 @@ LOCAL_PATH := vendor/samsung/logands
 #$(LOCAL_PATH)/proprietary/lib/libsfextmkv.so:system/lib/libsfextmkv.so \
 #$(LOCAL_PATH)/proprietary/lib/libsfextrmf.so:system/lib/libsfextrmf.so \
 #$(LOCAL_PATH)/proprietary/lib/libsfextwmf.so:system/lib/libsfextwmf.so \
-#$(LOCAL_PATH)/proprietary/bin/playlpm:system/bin/playlpm \
-#$(LOCAL_PATH)/proprietary/bin/lpmkey:system/bin/lpmkey \
-#$(LOCAL_PATH)/proprietary/media/battery_batteryerror.qmg:system/media/battery_batteryerror.qmg \
-#$(LOCAL_PATH)/proprietary/media/battery_charging_5.qmg:system/media/battery_charging_5.qmg \
-#$(LOCAL_PATH)/proprietary/media/battery_charging_10.qmg:system/media/battery_charging_10.qmg \
-#$(LOCAL_PATH)/proprietary/media/battery_charging_15.qmg:system/media/battery_charging_15.qmg \
-#$(LOCAL_PATH)/proprietary/media/battery_charging_20.qmg:system/media/battery_charging_20.qmg \
-#$(LOCAL_PATH)/proprietary/media/battery_charging_25.qmg:system/media/battery_charging_25.qmg \
-#$(LOCAL_PATH)/proprietary/media/battery_charging_30.qmg:system/media/battery_charging_30.qmg \
-#$(LOCAL_PATH)/proprietary/media/battery_charging_35.qmg:system/media/battery_charging_35.qmg \
-#$(LOCAL_PATH)/proprietary/media/battery_charging_40.qmg:system/media/battery_charging_40.qmg \
-#$(LOCAL_PATH)/proprietary/media/battery_charging_45.qmg:system/media/battery_charging_45.qmg \
-#$(LOCAL_PATH)/proprietary/media/battery_charging_50.qmg:system/media/battery_charging_50.qmg \
-#$(LOCAL_PATH)/proprietary/media/battery_charging_55.qmg:system/media/battery_charging_55.qmg \
-#$(LOCAL_PATH)/proprietary/media/battery_charging_60.qmg:system/media/battery_charging_60.qmg \
-#$(LOCAL_PATH)/proprietary/media/battery_charging_65.qmg:system/media/battery_charging_65.qmg \
-#$(LOCAL_PATH)/proprietary/media/battery_charging_70.qmg:system/media/battery_charging_70.qmg \
-#$(LOCAL_PATH)/proprietary/media/battery_charging_75.qmg:system/media/battery_charging_75.qmg \
-#$(LOCAL_PATH)/proprietary/media/battery_charging_80.qmg:system/media/battery_charging_80.qmg \
-#$(LOCAL_PATH)/proprietary/media/battery_charging_85.qmg:system/media/battery_charging_85.qmg \
-#$(LOCAL_PATH)/proprietary/media/battery_charging_90.qmg:system/media/battery_charging_90.qmg \
-#$(LOCAL_PATH)/proprietary/media/battery_charging_95.qmg:system/media/battery_charging_95.qmg \
-#$(LOCAL_PATH)/proprietary/media/battery_charging_100.qmg:system/media/battery_charging_100.qmg \
-#$(LOCAL_PATH)/proprietary/media/battery_error.qmg:system/media/battery_error.qmg \
-#$(LOCAL_PATH)/proprietary/media/chargingwarning.qmg:system/media/chargingwarning.qmg 
 #$(LOCAL_PATH)/proprietary/bin/at_distributor:system/bin/at_distributor \
 #$(LOCAL_PATH)/proprietary/bin/atx:system/bin/atx \
 #$(LOCAL_PATH)/proprietary/bin/atxd:system/bin/atxd \
@@ -83,7 +58,6 @@ LOCAL_PATH := vendor/samsung/logands
 #$(LOCAL_PATH)/proprietary/lib/libstagefright_soft_mpeg4enc.so:system/lib/libstagefright_soft_mpeg4enc.so
 #$(LOCAL_PATH)/proprietary/lib/libstagefright_soft_h264dec.so:system/lib/libstagefright_soft_h264dec.so \
 #$(LOCAL_PATH)/proprietary/lib/libstagefright_soft_h264enc.so:system/lib/libstagefright_soft_h264enc.so
-#$(LOCAL_PATH)/proprietary/bin/immvibed:system/bin/immvibed \
 #$(LOCAL_PATH)/proprietary/lib/libImmVibeJ.so:system/lib/libImmVibeJ.so \
 #$(LOCAL_PATH)/proprietary/lib/libsensorservice.so:system/lib/libsensorservice.so \
 #$(LOCAL_PATH)/proprietary/lib/libbinder.so:system/lib/libbinder.so \
@@ -302,8 +276,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libisp2.so:system/lib/libisp2.so \
 	$(LOCAL_PATH)/proprietary/lib/libisp3.so:system/lib/libisp3.so \
 	$(LOCAL_PATH)/proprietary/lib/libexifa.so:system/lib/libexifa.so \
-	$(LOCAL_PATH)/proprietary/lib/libjpega.so:system/lib/libjpega.so
-
+	$(LOCAL_PATH)/proprietary/lib/libjpega.so:system/lib/libjpega.so \
+	
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/bin/cate_rpc_util:system/bin/cate_rpc_util \
 	$(LOCAL_PATH)/proprietary/lib/libcate_rpc.so:system/lib/libcate_rpc.so \
@@ -311,3 +285,31 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
 	$(LOCAL_PATH)/proprietary/lib/libusb_config.so:system/lib/libusb_config.so \
 	$(LOCAL_PATH)/proprietary/etc/usb_portd.conf:system/etc/usb_portd.conf
+	
+PRODUCT_COPY_FILES += \
+	$(LOCAL_PATH)/proprietary/bin/playlpm:system/bin/playlpm \
+	$(LOCAL_PATH)/proprietary/bin/lpmkey:system/bin/lpmkey \
+	$(LOCAL_PATH)/proprietary/bin/immvibed:system/bin/immvibed \
+	$(LOCAL_PATH)/proprietary/media/battery_batteryerror.qmg:system/media/battery_batteryerror.qmg \
+	$(LOCAL_PATH)/proprietary/media/battery_charging_5.qmg:system/media/battery_charging_5.qmg \
+	$(LOCAL_PATH)/proprietary/media/battery_charging_10.qmg:system/media/battery_charging_10.qmg \
+	$(LOCAL_PATH)/proprietary/media/battery_charging_15.qmg:system/media/battery_charging_15.qmg \
+	$(LOCAL_PATH)/proprietary/media/battery_charging_20.qmg:system/media/battery_charging_20.qmg \
+	$(LOCAL_PATH)/proprietary/media/battery_charging_25.qmg:system/media/battery_charging_25.qmg \
+	$(LOCAL_PATH)/proprietary/media/battery_charging_30.qmg:system/media/battery_charging_30.qmg \
+	$(LOCAL_PATH)/proprietary/media/battery_charging_35.qmg:system/media/battery_charging_35.qmg \
+	$(LOCAL_PATH)/proprietary/media/battery_charging_40.qmg:system/media/battery_charging_40.qmg \
+	$(LOCAL_PATH)/proprietary/media/battery_charging_45.qmg:system/media/battery_charging_45.qmg \
+	$(LOCAL_PATH)/proprietary/media/battery_charging_50.qmg:system/media/battery_charging_50.qmg \
+	$(LOCAL_PATH)/proprietary/media/battery_charging_55.qmg:system/media/battery_charging_55.qmg \
+	$(LOCAL_PATH)/proprietary/media/battery_charging_60.qmg:system/media/battery_charging_60.qmg \
+	$(LOCAL_PATH)/proprietary/media/battery_charging_65.qmg:system/media/battery_charging_65.qmg \
+	$(LOCAL_PATH)/proprietary/media/battery_charging_70.qmg:system/media/battery_charging_70.qmg \
+	$(LOCAL_PATH)/proprietary/media/battery_charging_75.qmg:system/media/battery_charging_75.qmg \
+	$(LOCAL_PATH)/proprietary/media/battery_charging_80.qmg:system/media/battery_charging_80.qmg \
+	$(LOCAL_PATH)/proprietary/media/battery_charging_85.qmg:system/media/battery_charging_85.qmg \
+	$(LOCAL_PATH)/proprietary/media/battery_charging_90.qmg:system/media/battery_charging_90.qmg \
+	$(LOCAL_PATH)/proprietary/media/battery_charging_95.qmg:system/media/battery_charging_95.qmg \
+	$(LOCAL_PATH)/proprietary/media/battery_charging_100.qmg:system/media/battery_charging_100.qmg \
+	$(LOCAL_PATH)/proprietary/media/battery_error.qmg:system/media/battery_error.qmg \
+	$(LOCAL_PATH)/proprietary/media/chargingwarning.qmg:system/media/chargingwarning.qmg
