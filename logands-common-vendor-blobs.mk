@@ -290,6 +290,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/bin/playlpm:system/bin/playlpm \
 	$(LOCAL_PATH)/proprietary/bin/lpmkey:system/bin/lpmkey \
 	$(LOCAL_PATH)/proprietary/bin/immvibed:system/bin/immvibed \
+	$(LOCAL_PATH)/proprietary/lib/libQmageDecoder.so:system/lib/libQmageDecoder.so \
 	$(LOCAL_PATH)/proprietary/media/battery_batteryerror.qmg:system/media/battery_batteryerror.qmg \
 	$(LOCAL_PATH)/proprietary/media/battery_charging_5.qmg:system/media/battery_charging_5.qmg \
 	$(LOCAL_PATH)/proprietary/media/battery_charging_10.qmg:system/media/battery_charging_10.qmg \
