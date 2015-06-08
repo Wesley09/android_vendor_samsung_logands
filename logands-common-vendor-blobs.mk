@@ -88,6 +88,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/bin/rild:system/bin/rild \
 	$(LOCAL_PATH)/proprietary/bin/mfgloader:system/bin/mfgloader \
 	$(LOCAL_PATH)/proprietary/bin/sensord:system/bin/sensord \
+	$(LOCAL_PATH)/proprietary/bin/hcitool:system/bin/hcitool \
 	$(LOCAL_PATH)/proprietary/bin/wlandutservice:system/bin/wlandutservice
 	
 # mp3 
@@ -217,6 +218,8 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/etc/wifi/bcmdhd_mfg.bin:system/etc/wifi/bcmdhd_mfg.bin \
     $(LOCAL_PATH)/proprietary/etc/wifi/bcmdhd_p2p.bin:system/etc/wifi/bcmdhd_p2p.bin \
     $(LOCAL_PATH)/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
+	$(LOCAL_PATH)/proprietary/etc/bluetooth/bt_did.conf:system/etc/bluetooth/bt_did.conf \
+	$(LOCAL_PATH)/proprietary/etc/bluetooth/main.conf:system/etc/bluetooth/main.conf \
 	$(LOCAL_PATH)/proprietary/etc/asound.conf:system/etc/asound.conf \
     $(LOCAL_PATH)/proprietary/etc/gps.conf:system/etc/gps.conf \
 	$(LOCAL_PATH)/proprietary/etc/gps/glconfig.xml:system/etc/gps/glconfig.xml \
