@@ -90,7 +90,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/bin/rild:system/bin/rild \
 	$(LOCAL_PATH)/proprietary/bin/mfgloader:system/bin/mfgloader \
 	$(LOCAL_PATH)/proprietary/bin/sensord:system/bin/sensord \
-	$(LOCAL_PATH)/proprietary/bin/hcitool:system/bin/hcitool \
 	$(LOCAL_PATH)/proprietary/bin/wlandutservice:system/bin/wlandutservice
 	
 # mp3 
