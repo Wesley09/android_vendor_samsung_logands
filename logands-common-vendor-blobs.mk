@@ -62,9 +62,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/lib/hw/audio.usb.hawaii.so:system/lib/hw/audio.usb.hawaii.so \
 	$(LOCAL_PATH)/proprietary/lib/hw/bplus.default.so:system/lib/hw/bplus.default.so \
 	$(LOCAL_PATH)/proprietary/lib/hw/alsa.default.so:system/lib/hw/alsa.default.so \
-	$(LOCAL_PATH)/proprietary/lib/hw/acoustics.default.so:system/lib/hw/acoustics.default.so \
-	$(LOCAL_PATH)/proprietary/vendor/lib/hw/lights.hawaii.so:system/vendor/lib/hw/lights.hawaii.so \
-	$(LOCAL_PATH)/proprietary/vendor/lib/hw/power.hawaii.so:system/vendor/lib/hw/power.hawaii.so
+	$(LOCAL_PATH)/proprietary/lib/hw/acoustics.default.so:system/lib/hw/acoustics.default.so
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/usr/lib/alsa-lib/libasound_module_pcm_bcmfilter.so:system/usr/lib/alsa-lib/libasound_module_pcm_bcmfilter.so \
@@ -98,7 +96,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/lib/lib_Samsung_Resampler.so:system/lib/lib_Samsung_Resampler.so \
 	$(LOCAL_PATH)/proprietary/lib/lib_Samsung_SB_AM_for_ICS_v04004.so:system/lib/lib_Samsung_SB_AM_for_ICS_v04004.so \
 	$(LOCAL_PATH)/proprietary/lib/lib_SamsungRec_V01006.so:system/lib/lib_SamsungRec_V01006.so \
-	$(LOCAL_PATH)/proprietary/lib/lib_SoundAlive_V01013n.so:system/lib/lib_SoundAlive_V01013n.so \
 	$(LOCAL_PATH)/proprietary/lib/libatlog.so:system/lib/libatlog.so \
 	$(LOCAL_PATH)/proprietary/lib/libat.so:system/lib/libat.so \
 	$(LOCAL_PATH)/proprietary/lib/libatparser.so:system/lib/libatparser.so \
@@ -120,8 +117,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
 	$(LOCAL_PATH)/proprietary/lib/libsmte.so:system/lib/libsmte.so \
 	$(LOCAL_PATH)/proprietary/lib/libsoc.so:system/lib/libsoc.so \
-	$(LOCAL_PATH)/proprietary/lib/libsoundalive.so:system/lib/libsoundalive.so \
-	$(LOCAL_PATH)/proprietary/lib/libSoundAlive_VSP_ver312a.so:system/lib/libSoundAlive_VSP_ver312a.so \
 	$(LOCAL_PATH)/proprietary/lib/libsoundspeed.so:system/lib/libsoundspeed.so \
 	$(LOCAL_PATH)/proprietary/lib/libjpeg_turbo.so:system/lib/libjpeg_turbo.so \
 	$(LOCAL_PATH)/proprietary/lib/libsthmb.so:system/lib/libsthmb.so \
