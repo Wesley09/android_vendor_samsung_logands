@@ -62,7 +62,9 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/lib/hw/audio.usb.hawaii.so:system/lib/hw/audio.usb.hawaii.so \
 	$(LOCAL_PATH)/proprietary/lib/hw/bplus.default.so:system/lib/hw/bplus.default.so \
 	$(LOCAL_PATH)/proprietary/lib/hw/alsa.default.so:system/lib/hw/alsa.default.so \
-	$(LOCAL_PATH)/proprietary/lib/hw/acoustics.default.so:system/lib/hw/acoustics.default.so
+	$(LOCAL_PATH)/proprietary/lib/hw/acoustics.default.so:system/lib/hw/acoustics.default.so \
+	$(LOCAL_PATH)/proprietary/vendor/lib/hw/lights.hawaii.so:system/vendor/lib/hw/lights.hawaii.so \
+ 	$(LOCAL_PATH)/proprietary/vendor/lib/hw/power.hawaii.so:system/vendor/lib/hw/power.hawaii.so
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/usr/lib/alsa-lib/libasound_module_pcm_bcmfilter.so:system/usr/lib/alsa-lib/libasound_module_pcm_bcmfilter.so \
@@ -133,7 +135,13 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/lib/libISP.so:system/lib/libISP.so \
     $(LOCAL_PATH)/proprietary/lib/libisp2.so:system/lib/libisp2.so \
 	$(LOCAL_PATH)/proprietary/lib/libisp3.so:system/lib/libisp3.so \
-	$(LOCAL_PATH)/proprietary/lib/libjpega.so:system/lib/libjpega.so
+	$(LOCAL_PATH)/proprietary/lib/libjpega.so:system/lib/libjpega.so \
+	$(LOCAL_PATH)/proprietary/lib/libedmnativehelper.so:system/lib/libedmnativehelper.so \
+	$(LOCAL_PATH)/proprietary/lib/libedmnativehelperservice.so:system/lib/libedmnativehelperservice.so \
+	$(LOCAL_PATH)/proprietary/lib/libbt-codec.so:system/lib/libbt-codec.so \
+	$(LOCAL_PATH)/proprietary/lib/libbt-codec_aptx.so:system/lib/libbt-codec_aptx.so \
+	$(LOCAL_PATH)/proprietary/lib/libbt-client-api.so:system/lib/libbt-client-api.so \
+	$(LOCAL_PATH)/proprietary/lib/libbt-aptx-4.0.3.so:system/lib/libbt-aptx-4.0.3.so
 	
  PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/bin/cate_rpc_util:system/bin/cate_rpc_util \
