@@ -135,13 +135,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/lib/libISP.so:system/lib/libISP.so \
     $(LOCAL_PATH)/proprietary/lib/libisp2.so:system/lib/libisp2.so \
 	$(LOCAL_PATH)/proprietary/lib/libisp3.so:system/lib/libisp3.so \
-	$(LOCAL_PATH)/proprietary/lib/libjpega.so:system/lib/libjpega.so \
-	$(LOCAL_PATH)/proprietary/lib/libedmnativehelper.so:system/lib/libedmnativehelper.so \
-	$(LOCAL_PATH)/proprietary/lib/libedmnativehelperservice.so:system/lib/libedmnativehelperservice.so \
-	$(LOCAL_PATH)/proprietary/lib/libbt-codec.so:system/lib/libbt-codec.so \
-	$(LOCAL_PATH)/proprietary/lib/libbt-codec_aptx.so:system/lib/libbt-codec_aptx.so \
-	$(LOCAL_PATH)/proprietary/lib/libbt-client-api.so:system/lib/libbt-client-api.so \
-	$(LOCAL_PATH)/proprietary/lib/libbt-aptx-4.0.3.so:system/lib/libbt-aptx-4.0.3.so
+	$(LOCAL_PATH)/proprietary/lib/libjpega.so:system/lib/libjpega.so
 	
  PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/bin/cate_rpc_util:system/bin/cate_rpc_util \
