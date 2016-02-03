@@ -63,8 +63,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/lib/hw/bplus.default.so:system/lib/hw/bplus.default.so \
 	$(LOCAL_PATH)/proprietary/lib/hw/alsa.default.so:system/lib/hw/alsa.default.so \
 	$(LOCAL_PATH)/proprietary/lib/hw/acoustics.default.so:system/lib/hw/acoustics.default.so \
-	$(LOCAL_PATH)/proprietary/vendor/lib/hw/lights.hawaii.so:system/vendor/lib/hw/lights.hawaii.so \
- 	$(LOCAL_PATH)/proprietary/vendor/lib/hw/power.hawaii.so:system/vendor/lib/hw/power.hawaii.so
+	$(LOCAL_PATH)/proprietary/vendor/lib/hw/lights.hawaii.so:system/vendor/lib/hw/lights.hawaii.so
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/usr/lib/alsa-lib/libasound_module_pcm_bcmfilter.so:system/usr/lib/alsa-lib/libasound_module_pcm_bcmfilter.so \
