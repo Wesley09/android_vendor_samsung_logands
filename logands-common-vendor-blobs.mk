@@ -6,7 +6,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/bin/glgps:system/bin/glgps \
     $(LOCAL_PATH)/proprietary/bin/gps.cer:system/bin/gps.cer \
     $(LOCAL_PATH)/proprietary/bin/gpslogd:system/bin/gpslogd \
-    $(LOCAL_PATH)/proprietary/bin/macloader:system/bin/macloader \
 	$(LOCAL_PATH)/proprietary/bin/mttlogger:system/bin/mttlogger \
     $(LOCAL_PATH)/proprietary/bin/rild:system/bin/rild \
 	$(LOCAL_PATH)/proprietary/bin/mfgloader:system/bin/mfgloader \
@@ -143,32 +142,4 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/lib/libusb_config.so:system/lib/libusb_config.so \
 	$(LOCAL_PATH)/proprietary/etc/usb_portd.conf:system/etc/usb_portd.conf \
  	$(LOCAL_PATH)/proprietary/lib/libusb_config.so:system/lib/libusb_config.so
-		
-PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/proprietary/bin/playlpm:system/bin/playlpm \
-	$(LOCAL_PATH)/proprietary/bin/lpmkey:system/bin/lpmkey \
-	$(LOCAL_PATH)/proprietary/bin/immvibed:system/bin/immvibed \
-	$(LOCAL_PATH)/proprietary/lib/libQmageDecoder.so:system/lib/libQmageDecoder.so \
-	$(LOCAL_PATH)/proprietary/media/battery_batteryerror.qmg:system/media/battery_batteryerror.qmg \
-	$(LOCAL_PATH)/proprietary/media/battery_charging_5.qmg:system/media/battery_charging_5.qmg \
-	$(LOCAL_PATH)/proprietary/media/battery_charging_10.qmg:system/media/battery_charging_10.qmg \
-	$(LOCAL_PATH)/proprietary/media/battery_charging_15.qmg:system/media/battery_charging_15.qmg \
-	$(LOCAL_PATH)/proprietary/media/battery_charging_20.qmg:system/media/battery_charging_20.qmg \
-	$(LOCAL_PATH)/proprietary/media/battery_charging_25.qmg:system/media/battery_charging_25.qmg \
-	$(LOCAL_PATH)/proprietary/media/battery_charging_30.qmg:system/media/battery_charging_30.qmg \
-	$(LOCAL_PATH)/proprietary/media/battery_charging_35.qmg:system/media/battery_charging_35.qmg \
-	$(LOCAL_PATH)/proprietary/media/battery_charging_40.qmg:system/media/battery_charging_40.qmg \
-	$(LOCAL_PATH)/proprietary/media/battery_charging_45.qmg:system/media/battery_charging_45.qmg \
-	$(LOCAL_PATH)/proprietary/media/battery_charging_50.qmg:system/media/battery_charging_50.qmg \
-	$(LOCAL_PATH)/proprietary/media/battery_charging_55.qmg:system/media/battery_charging_55.qmg \
-	$(LOCAL_PATH)/proprietary/media/battery_charging_60.qmg:system/media/battery_charging_60.qmg \
-	$(LOCAL_PATH)/proprietary/media/battery_charging_65.qmg:system/media/battery_charging_65.qmg \
-	$(LOCAL_PATH)/proprietary/media/battery_charging_70.qmg:system/media/battery_charging_70.qmg \
-	$(LOCAL_PATH)/proprietary/media/battery_charging_75.qmg:system/media/battery_charging_75.qmg \
-	$(LOCAL_PATH)/proprietary/media/battery_charging_80.qmg:system/media/battery_charging_80.qmg \
-	$(LOCAL_PATH)/proprietary/media/battery_charging_85.qmg:system/media/battery_charging_85.qmg \
-	$(LOCAL_PATH)/proprietary/media/battery_charging_90.qmg:system/media/battery_charging_90.qmg \
-	$(LOCAL_PATH)/proprietary/media/battery_charging_95.qmg:system/media/battery_charging_95.qmg \
-	$(LOCAL_PATH)/proprietary/media/battery_charging_100.qmg:system/media/battery_charging_100.qmg \
-	$(LOCAL_PATH)/proprietary/media/battery_error.qmg:system/media/battery_error.qmg \
-	$(LOCAL_PATH)/proprietary/media/chargingwarning.qmg:system/media/chargingwarning.qmg
+	
