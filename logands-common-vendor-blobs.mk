@@ -97,6 +97,7 @@ PRODUCT_COPY_FILES += \
 # Ril
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/lib/libril.so:system/lib/libril.so
+	
 # Camera
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/lib/libisp2.so:system/lib/libisp2.so \
