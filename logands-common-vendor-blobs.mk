@@ -97,6 +97,10 @@ PRODUCT_COPY_FILES += \
 # Ril
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
+	$(LOCAL_PATH)/proprietary/lib/libbrcmparser.so:system/lib/libbrcmparser.so \
+	$(LOCAL_PATH)/proprietary/lib/libat_stubs.so:system/lib/libat_stubs.so \
+	$(LOCAL_PATH)/proprietary/lib/libat.so:system/lib/libat.so \
+	$(LOCAL_PATH)/proprietary/lib/libbrcm_ril.so:system/lib/libbrcm_ril.so \
 	$(LOCAL_PATH)/proprietary/lib/libril.so:system/lib/libril.so
 	
 # Camera
@@ -151,14 +155,14 @@ PRODUCT_COPY_FILES += \
 #$(LOCAL_PATH)/proprietary/lib/libvcdecoder_jni.so:system/lib/libvcdecoder_jni.so \
 #$(LOCAL_PATH)/proprietary/lib/libsoundspeed.so:system/lib/libsoundspeed.so \
 #$(LOCAL_PATH)/proprietary/lib/libatlog.so:system/lib/libatlog.so \
-#$(LOCAL_PATH)/proprietary/lib/libat.so:system/lib/libat.so \
+
 #$(LOCAL_PATH)/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
 #$(LOCAL_PATH)/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
-#$(LOCAL_PATH)/proprietary/lib/libat_stubs.so:system/lib/libat_stubs.so \
-#$(LOCAL_PATH)/proprietary/lib/libbrcmparser.so:system/lib/libbrcmparser.so \
+
+
 #$(LOCAL_PATH)/proprietary/lib/libcontainers.so:system/lib/libcontainers.so \
 #$(LOCAL_PATH)/proprietary/lib/libkeystore_client.so:system/lib/libkeystore_client.so \
 #$(LOCAL_PATH)/proprietary/lib/libisp3.so:system/lib/libisp3.so \
 #$(LOCAL_PATH)/proprietary/lib/libjpega.so:system/lib/libjpega.so
-#$(LOCAL_PATH)/proprietary/lib/libbrcm_ril.so:system/lib/libbrcm_ril.so \
-#$(LOCAL_PATH)/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so
+
+
