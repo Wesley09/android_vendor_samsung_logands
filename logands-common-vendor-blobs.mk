@@ -96,6 +96,7 @@ PRODUCT_COPY_FILES += \
 
 # Ril
 PRODUCT_COPY_FILES += \
+	$(LOCAL_PATH)/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
 	$(LOCAL_PATH)/proprietary/lib/libril.so:system/lib/libril.so
 	
 # Camera
