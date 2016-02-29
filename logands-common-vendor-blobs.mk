@@ -146,23 +146,3 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/etc/usb_portd.conf:system/etc/usb_portd.conf \
 	$(LOCAL_PATH)/proprietary/lib/libusb_config.so:system/lib/libusb_config.so
 	
-#$(LOCAL_PATH)/proprietary/lib/libsmte.so:system/lib/libsmte.so \
-#$(LOCAL_PATH)/proprietary/lib/libcontrolcsc.so:system/lib/libcontrolcsc.so \
-#$(LOCAL_PATH)/proprietary/lib/libsthmb.so:system/lib/libsthmb.so \	
-#$(LOCAL_PATH)/proprietary/lib/libsavscmn.so:system/lib/libsavscmn.so \
-#$(LOCAL_PATH)/proprietary/lib/libsavsvc.so:system/lib/libsavsvc.so \ 
-#$(LOCAL_PATH)/proprietary/lib/libatparser.so:system/lib/libatparser.so \
-#$(LOCAL_PATH)/proprietary/lib/libvcdecoder_jni.so:system/lib/libvcdecoder_jni.so \
-#$(LOCAL_PATH)/proprietary/lib/libsoundspeed.so:system/lib/libsoundspeed.so \
-#$(LOCAL_PATH)/proprietary/lib/libatlog.so:system/lib/libatlog.so \
-
-#$(LOCAL_PATH)/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
-#$(LOCAL_PATH)/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
-
-
-#$(LOCAL_PATH)/proprietary/lib/libcontainers.so:system/lib/libcontainers.so \
-#$(LOCAL_PATH)/proprietary/lib/libkeystore_client.so:system/lib/libkeystore_client.so \
-#$(LOCAL_PATH)/proprietary/lib/libisp3.so:system/lib/libisp3.so \
-#$(LOCAL_PATH)/proprietary/lib/libjpega.so:system/lib/libjpega.so
-
-
